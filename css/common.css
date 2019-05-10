@@ -1,0 +1,112 @@
+html,body{height:100%}
+.margin{width:1190px;margin:auto}
+/* #top{height:80px;background: url(../imgs/top.jpg) no-repeat;background-size:cover;} */
+
+#header{border-bottom:1px solid #ccc;height:29px;background:#eee;}
+
+#header #headerbox{line-height:29px;height:29px;}
+#header #headerbox .header-nav{float:left;width:284px;height:29px}
+#header #headerbox .hleft{font:12px/29px "";color:#999;}
+#header #headerbox .hleft h3{float:left;font:12px/29px ""}
+#header #headerbox .hleft h3 a{color:#999;}
+#header #headerbox .hleft a.login{float:left;margin-left:5px;}
+#header #headerbox .hleft a.regi{float:left;margin-left:15px;}
+
+#header #headerbox .hright{float:right;}
+#header #headerbox .hright ul{}
+#header #headerbox .hright ul li{float:left;height:29px}
+#header #headerbox .hright ul li:last-child{display:flex}
+#header #headerbox .hright ul li a{display:block;text-decoration:none;color:#999;padding:0 15px;float:left;}
+#header #headerbox .hright ul li:nth-child(2) a{background:url(../imgs/drop_down_iconv.png) no-repeat right center;}
+#header #headerbox .hright ul li:nth-child(3) a{background:url(../imgs/drop_down_iconv.png) no-repeat right center;}
+#header #headerbox .hright ul li:nth-child(4) a{background:url(../imgs/drop_down_iconv.png) no-repeat right center;}
+#header #headerbox .hright ul li:nth-child(9) b{background: url(../imgs/icon_title1.png) no-repeat center 5px;float:left;display:block;width:20px;height:20px;}
+#header #headerbox .hright ul li:nth-child(9) a{padding:0 3px;}
+#header #headerbox .hright ul li:nth-child(9) i{background: url(../imgs/icon_title2.png) no-repeat 0 0;width:17px;height:17px;margin-top:5px;line-height:17px;text-align:center;float:left;color:#fff;padding-left:1px}
+#header #headerbox .hright ul li span{float:left;color:#999;}
+
+
+#header #headerbox .hright ul li span{}
+
+
+#search{height:100px;padding-top:15px;}
+#search img{float:left;}
+#search p{float:left;margin-left:20px;}
+#search .searchform{float:left;padding-left:55px;width:500px;height:64px;}
+#search .searchform form{width:494px;height:30px;border:3px solid #c40000;}
+#search .searchform form input{outline:none;border:none;}
+#search .searchform form .txt{padding:2px 0 0 10px;width:400px;height:28px;float:left;}
+#search .searchform form .btn{float:right;width:78px;height:30px;background: #c40000;color:#fff;font:16px/30px ""}
+#search .searchform .wordlist{padding-top:8px;}
+#search a.member{float:right}
+#search .searchform .wordlist span{color:#999;}
+#search .searchform .wordlist a{padding:0 9px;}
+#search .searchform .wordlist a.active{color:#c40000;}
+
+/* 菜单
+#menu{background:#c40000;height:40px;line-height:40px;}
+#menu .margin{position:relative}
+#menu .product{width:200px;color:#fff;top:0;left:0;position:absolute;} */
+
+/* 二级菜单
+#menu .product h2{height:40px;padding-left:15px;}
+#menu .product ul{z-index:999;position:relative;height:450px;background:rgba(255,255, 255, 0.9)}
+#menu .product ul li{height:25px;padding:10px 10px 10px 35px;}
+
+#menu .product ul li span{display:block;float:left;width:17px;height:17px;margin-right:10px;margin-top:1px;background: url(../imgs/icon_totle.png)}
+
+#menu .product ul li:nth-child(1) span{background-position: -25px -154px}
+#menu .product ul li:nth-child(2) span{background-position: -25px -154px}
+
+#menu .product ul li:nth-child(3) span{background-position: -25px -180px}
+#menu .product ul li:nth-child(4) span{background-position: -25px -203px}
+#menu .product ul li:nth-child(5) span{background-position: -25px -232px}
+#menu .product ul li:nth-child(6) span{background-position: -25px -257px}
+#menu .product ul li:nth-child(7) span{background-position: -55px -23px}
+#menu .product ul li:nth-child(8) span{background-position: -170px -23px}
+#menu .product ul li:nth-child(9) span{background-position: -80px -23px}
+#menu .product ul li:nth-child(10) span{background-position: -107px -27px}
+
+#menu .product ul li a{display:block;float:left;padding-right:5px;line-height:19px;font-size:14px}
+ */
+
+
+
+
+
+
+
+ #footer{height:660px;margin-top:50px;}
+ #footer #footerbox{margin-left:70px;margin-top:20px;}
+ #footer #footerbox .foottop{height:98px;;}
+ #footer #footerbox .foottop .about{height:30px;}
+ 
+ #footer #footerbox .foottop .about h3{float:left;width:100px;height:30px;text-align:center;line-height:30px;background:#eee;font-size:12px;}
+ #footer #footerbox .foottop .about h3.active{background: #999;color:#fff;}
+ #footer #footerbox .foottop .partenerimg{margin-top:20px;}
+ 
+ #footer #footerbox .foottop .friendlink2{display:none;}
+ #footer #footerbox .foottop .word2{display:none}
+ 
+ 
+ #footer #footerbox .footcenter{height:100px;margin-top:20px; }
+ 
+ #footer #footerbox .footcenter ul{}
+ 
+ #footer #footerbox .footcenter ul li{float:left}
+ #footer #footerbox .footline{height:1px;background:#ccc;}
+ #footer #footerbox .footerbottom{height:170px;padding-top:20px;}
+ #footer #footerbox .footerbottom dl{float:left;margin-left:12px;width:152px;height:150px;}
+ #footer #footerbox .footerbottom dl:nth-child(1){margin-left:70;}
+ #footer #footerbox .footerbottom dl dt{height:20px;margin-bottom:10px;color:#6e6e6e;font-size:14px}
+ #footer #footerbox .footerbottom dl dd{height:20px;font:12px/20px ""}
+ #footer #footerbox .footer-nav{text-align:center;}
+ #footer #footerbox .footer-nav .fn-t{height:38px;background:#c40000;font:12px/38px "";color:#fff;}
+ #footer #footerbox .footer-nav .fn-t a{color:#fff;padding:0 10px;margin:0 10px;}
+ 
+ 
+ #footer #footmsg{background :#f5f5f5;height:120px;padding-top:20px;}
+ #footer #footerbox .footer-nav .copyright{height:56px;line-height:25px;color:#999;}
+ 
+ #footer #footerbox .footer-nav .footlogo{height:40px;margin-top:15PX;}
+ 

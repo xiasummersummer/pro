@@ -1,0 +1,148 @@
+
+
+
+/* 菜单 */
+#menu{background:#c40000;height:40px;line-height:40px;}
+#menu .margin{position:relative}
+#menu .product{width:200px;color:#fff;top:0;left:0;position:absolute;}
+
+/* 二级菜单 */
+#menu .product h2{height:40px;padding-left:15px;}
+#menu .product ul{z-index:999;position:relative;height:450px;background:rgba(255,255, 255, 0.9);display:none;}
+/* #menu .product:hover ul{display:block;} */
+
+#menu .product ul li{height:25px;padding:10px 10px 10px 35px;}
+
+#menu .product ul li span{display:block;float:left;width:17px;height:17px;margin-right:10px;margin-top:1px;background: url(../imgs/icon_totle.png)}
+
+#menu .product ul li:nth-child(1) span{background-position: -25px -154px}
+#menu .product ul li:nth-child(2) span{background-position: -25px -154px}
+
+#menu .product ul li:nth-child(3) span{background-position: -25px -180px}
+#menu .product ul li:nth-child(4) span{background-position: -25px -203px}
+#menu .product ul li:nth-child(5) span{background-position: -25px -232px}
+#menu .product ul li:nth-child(6) span{background-position: -25px -257px}
+#menu .product ul li:nth-child(7) span{background-position: -55px -23px}
+#menu .product ul li:nth-child(8) span{background-position: -170px -23px}
+#menu .product ul li:nth-child(9) span{background-position: -80px -23px}
+#menu .product ul li:nth-child(10) span{background-position: -107px -27px}
+
+#menu .product ul li a{display:block;float:left;padding-right:5px;line-height:19px;font-size:14px}
+
+/* 三级菜单 */
+#submenu{position:absolute;width:780px;height:450px;background:#fff;z-index:90;top:40px;left:200px;padding:0 15px;overflow:hidden;display:none;}
+#submenu #sm-f1{}
+
+#menu #menu-nav{float:left;margin-left:200px;height:40px;}
+#menu #menu-nav li{float:left;padding-right:15px;position:relative;}
+
+#menu #menu-nav li a{color:#fff;padding:0 25px;font: 14px/40px "";display:block;}
+#menu #menu-nav li a.active{background:#db2020;}
+#menu #menu-nav li a:hover{background:#db2020;}
+
+#menu #menu-nav li:nth-child(6) img{background: url(../imgs/68.gif) no-repeat center;position:absolute;top:0;right:20px}
+
+#menu #menu-nav li:nth-child(8) img{background: url(../imgs/73.gif) no-repeat center;position: absolute;top:0;right:20px;}
+
+
+
+
+
+#search-term{margin-top:10px;}
+
+#relategoods{height:35px;margin-bottom:5px;padding-top:5px;}
+#relategoods a{padding-right:15px;}
+#searchgoods{height:20px;outline:none;padding-left:15px;background:url(../imgs/shop_icon.png) no-repeat right center;background-position:169px -45px;border:1px solid #ccc;margin-left:5px;}
+
+
+#search-term #category{background: #F7F5F5;margin-bottom:20px;}
+#search-term #category .cate-t{height:93px;border:1px solid #ccc;border-bottom:0;}
+#search-term #category  h3{padding-top:7px;float:left;width:118px;line-height:16px;color:#B0A59F;font-size:12px;} 
+
+#search-term #category  h3 i{background:url(../imgs/shop_icon.png) no-repeat center;background-position:-125px -47px;display:block;width:16px;height:16px;float:left;margin:3px 0 0 10px;}
+#search-term #category .cate-t ul{float:right;background: #fff;padding-top:4px;width:994px;height:90px;padding-right:45px;padding-left:25px;}
+#search-term #category .cate-t ul li{float:left;width:120px;height:22px;margin-right:8px;padding:2px 0 6px 0;}
+#search-term #category .cate-t ul li a{float:left;}
+#search-term #category .cate-t ul li:nth-child(1) a{background:#E73F46;padding:0 10px;border-radius:5px;line-height:22px;color:#fff;display:block;float:left;}
+
+#search-term #category .brand-b{height:66px;border:2px solid #ccc;position:relative;}
+#search-term #category .brand-b h3{padding:7px 0 0 16px;float:left;width:102px;} 
+#search-term #category .brand-b ul{float:right;background: #fff;padding-top:6px;width:994px;height:60px;padding-right:45px;padding-left:25px;}
+#search-term #category .brand-b ul li{float:left;width:120px;height:22px;margin-right:8px;background: #fff;padding-bottom:8px;line-height:22px;}
+#search-term #category .brand-b ul li:nth-child(1) a{background:#E73F46;padding:0 10px;border-radius:5px;line-height:22px;color:#fff;display:block;float:left;}
+#search-term #category .brand-b a.more{position:absolute;right:70px;top:6px;color:#4f8cff;}
+
+/* 展开后 */
+#collect{display:none;}
+
+
+#rankbox{height:29px;margin-bottom:15px;background:#FAF9F9;padding-top:5px;}
+#rankbox #box{float:left;border:1px solid #ccc;}
+#rankbox #box a{float:left;display:block;width:41px;height:22px;position:relative;line-height:22px;padding-left:5px;border-right:1px solid #ccc;}
+#rankbox #box a:last-child{border-right:0;}
+#rankbox a.active{background:#F1EDEC;color:#B10000}
+
+#rankbox #box a i{background: url(../imgs/shop_icon.png) no-repeat right center;background-position:-22px -24px;display:inline-block;width:7px;height:8px;position:absolute;top:7px;right:5px;}
+#rankbox a.active i{background-position:-46px -24px;}
+
+#rankbox .price{float:left;width:112px;margin-left:5px;}
+#rankbox .price h3{float:left;border:1px solid #ccc;width:47px;}
+#rankbox .price h3 span{margin:3px 0 0 2px;color:#999;}
+#rankbox .price span{float:left;}
+#rankbox .price input{border:none;float:right;height:22px;width:32px;outline:none;}
+
+#rankbox .price b{float:left;display:block;width:8px;padding:5px 0 0 2px;height:17px;border-top:1px solid #ccc;border-bottom:1px solid #ccc;color:#ccc;}
+
+/* #rankbox #endprice{float:right;width:30px;height:24px} */
+
+#rankbox #check{float:left;width:225px;border:1px solid #ccc;height:22px;line-height:22px;color:#666;}
+
+#rankbox #check input{width:14px;height:14px;outline:none;float:left;vertical-align: middle;margin:5px 0 0 5px;}
+
+#rankbox #check span{float:left;line-height:22px;font-size:12px;}
+
+#rankbox #pic{float:left;border:1px solid #ccc;width:90px;height:22px;margin-left:5px;}
+#rankbox #pic a{display:block;height:22px;padding:0 0 0 15px;float:left;position:relative;line-height:22px;color:#666}
+#rankbox #pic a i{background: url(../imgs/shop_icon.png) no-repeat right center;background-position:-28px 0;display:inline-block;width:9px;height:9px;position:absolute;top:7px;left:3px;}
+#rankbox #pic .big{border-right:1px solid #ccc;}
+
+#rankbox #rank-right{float:right;width:85px;height:22px;}
+#rankbox #rank-right span{float:left;display:block;}
+#rankbox #rank-right span:first-child{margin:0 3px 0 3px;;background:#EFEFEF;color:#999;width:24px;line-height:20px;height:20px;}
+
+#rankbox #rank-right span:nth-child(2){width:18px;height:12px;margin-right:5px;border:1px solid #ccc;text-align: center;padding:3px 0 3px 0;}
+#rankbox #rank-right span:nth-child(3){width:18px;height:12px;margin-right:5px;border:1px solid #ccc;text-align: center;padding:3px 0 3px 0;}
+
+
+
+#product{width:1210px;margin:auto;}
+
+#product #prod-list{float:left;margin:0 0 20px 4px;width:224px;height:340px;border:1px solid #ccc;padding:4px 4px 0 4px;position:relative;}
+#product #prod-list img{display:block;width:220px;height:220px;}
+#product #prod-list em{display:block;color:#C00;font-size:20px;}
+#product #prod-list a.headline{display:block;overflow:hidden;line-height:18px;margin-bottom:3px;color:#666;}
+
+#product #prod-list a:hover{color:#c00;text-decoration: underline;word-break: break-all;}
+#product #prod-list p span{display:block;color:#666;}
+#product #prod-list p{margin-bottom:3px;}
+#product #prod-list p span:hover{color:#c00;text-decoration: underline;}
+#product #prod-list i{position:absolute;right:10px;top:275px;border:1px solid #CC0000;width:49px;height:18px;border-radius:3px;line-height:18px;text-align:center;color:#CC0000;}
+#product #prod-list h4{color:#999;height:12px;border-top:1px solid #ccc;margin-top:10px;padding:10px 0 0 2px;line-height:12px;font-size:12px;}
+#product #prod-list h4 b{margin:0 2px;}
+
+/* 分页 */
+#page{height:60px;margin:20px 0 50px 0;}
+#page .margin{width:1210px;margin:auto;}
+#page .pagebox{float:right;padding-top:19px;width:760px;height:40px;}
+#page .pagebox .left{border:1px solid #ccc;float:left;width:58px;height:26px;padding:12px 14px 0 14px ;}
+#page .pagebox .pagging{float:left;border-top:1px solid #ccc;border-bottom:1px solid #ccc;}
+
+#page .pagebox .pagging li{float:left;width:37px;height:38px;border-right:1px solid #ccc;text-align:center;line-height:38px;    }
+#page .pagebox .pagging li.active{background:#ccc;}
+#page .pagebox .pagging li:last-child{border-right:0;}
+#page .pagebox .right{border:1px solid #ccc;float:left;width:58px;height:26px;padding:12px 14px 0 14px ;}
+#page .pagebox p{float:left;border-right:1px solid #ccc;height:35px;width:18px;font-size:12px;color:#999;margin:0 4px;padding-top:5px;}
+#page .pagebox .total{height:20px;line-height:20px;float:left;padding:10px 0 0 10px;color:#999;}
+#page .pagebox .total span{float:left;}
+#page .pagebox .total input{float:left;width:34px;text-align:center;}
+#page .pagebox .btn{float:left;background:#c40;padding:0 10px;width:34px;height:20px;border:none;text-indent:3px;margin:10px 0 0 3px;}

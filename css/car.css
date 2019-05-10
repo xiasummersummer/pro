@@ -1,0 +1,125 @@
+
+
+#header .out{margin:0 10px;}
+#header .num{background:#db2020;display:block;width:20px;height:20px;margin-top:6px;line-height:20px;color:#fff;text-align:center;border-radius:50%;}
+#header .hleft h3 a{}
+#search{height:85px;}
+#search #searchtop{}
+#search #searchtop a{float:left;display:block;}
+
+#search #searchtop .searchform{float:left;width:711px;height:60px;margin-left:40px;}
+
+#search #searchtop .searchform h3{height:23px;text-align:center;line-height:22px;}
+#search #searchtop .searchform h3 a{display:block;height:23px;background:#FF5700;color:#fff;
+width:40px;}
+
+#search #searchtop .searchform form{border:2px solid #FF5700;height:32px;width:710px;}
+
+#search #searchtop .searchform form #txt{float:left;width:615px;background:#FFF;height:32px;border:none;}
+
+#search #searchtop .searchform form #btn{float:right;color:#fff;border:none;height:32px;width:92px;background:#FF5700;}
+
+
+
+#content{margin:35px 0 45px 0;}
+#content #search-nav{width:990px;height:44px;}
+#content #search-nav ul{}
+#content #search-nav ul li{text-align:center;line-height:44px;width:240px;height:44px;float:left;background:url(../imgs/curr_bg_d.png) repeat-x;margin-left:-53px;}
+#content #search-nav ul li:nth-child(1){margin-left:0;z-index:8;position:relative;}
+#content #search-nav ul li:nth-child(2){z-index:7;position:relative;}
+#content #search-nav ul li:nth-child(3){z-index:6;position:relative;}
+#content #search-nav ul li:nth-child(4){z-index:5;position:relative;}
+
+#content #search-nav ul li span{background:url(../imgs/curr_round_d.png) no-repeat center;display:inline-block;margin-right:5px;width:25px;height:25px;line-height:25px;}
+
+/*  没加购物车之前 */
+#posi{display:none;}
+#posi .posi-top{margin:20px 0 10px 0;height:18px;}
+#posi h3{float:left;}
+#posi a{float:left;}
+#posi span{float:right}
+#posi #empty{background: url(../imgs/empty.png) no-repeat left center;width:834px;height:52px;padding:88px 0 100px 156px}
+#posi #empty h2{height:20px;}
+#posi #empty a{display:block;color:#3366CC;margin-top:12px;}
+
+/* 加购物车之后 */
+#carshop{min-height:210px;display:block;}
+#carshop .margin{width:991px;margin:auto;}
+#carshop .cs-t {margin-bottom:15px;}
+#carshop .cs-t h3{float:left;}
+#carshop .cs-t h4{float:right;}
+#carshop .cs-t h4 span{color:#c40001}
+#carshop .cs-list .cs-l-t{margin-bottom:20px;}
+#carshop .cs-list .cs-l-t p{height:3px;background:#c40001;}
+#carshop .cs-list .cs-l-t .option{height:30px;background:#ccc;}
+#carshop .cs-list .cs-l-t .option .ocheck{margin-left:10px;float:left;width:49px;}
+#carshop .cs-list .cs-l-t .option .ocheck input{float:left;margin-top:8px;}
+#carshop .cs-list .cs-l-t .option .ocheck h3{float:left;margin-left:5px;font:12px/30px "";}
+#carshop .cs-list .cs-l-t .option span{float:left;line-height:30px;text-align:center;}
+#carshop .cs-list .cs-l-t .option .o-goods{width:290px;}
+#carshop .cs-list .cs-l-t .option  .o-msg{width:160px;}
+#carshop .cs-list .cs-l-t .option  .o-price{width:130px;}
+#carshop .cs-list .cs-l-t .option .o-num{width:110px;}
+#carshop .cs-list .cs-l-t .option  .o-acount{width:130px;}
+#carshop .cs-list .cs-l-t .option  .o-option{width:109px;}
+
+#carshop .cs-list .car-goods{}
+
+#carshop .cs-list .car-goods h3{height:16px;margin-bottom:10px;}
+#carshop .cs-list .car-goods h3 input{margin-top:3px;float:left;}
+#carshop .cs-list .car-goods h3 a{line-height:16px;float:left;margin-left:10px;font-size:12px;color:#999;}
+#carshop .cs-list .car-goods h3 a:hover{color:#FF6600;text-decoration: underline;}
+#carshop .cs-list .car-goods .goods{}
+#carshop .cs-list .car-goods .goods {height:99px;background:#DBEBFE;}
+
+#carshop .cs-list .car-goods .goods li{float:left;height:91px;padding-top:8px;text-align:center;}
+#carshop .cs-list .car-goods .goods li a.imgbox img{width:80px;height:80px;}
+#carshop .cs-list .car-goods .goods li.li1{width:49px;margin-left:10px;}
+
+#carshop .cs-list .car-goods .goods li.li1 span{float:left;line-height:91px;height:91px;margin-left:10px;}
+#carshop .cs-list .car-goods .goods li.li1 input{float:left;margin-top:38px;margin-left:5px;width:15px;height:15px;}
+#carshop .cs-list .car-goods .goods li.li2 {width:290px;height:81px;}
+#carshop .cs-list .car-goods .goods li.li2 a.imgbox{display:block;float:left;height:80px;width:80px;border:1px solid #ccc;overflow:hidden;}
+
+
+/* #carshop .cs-list .car-goods .goods li.li2 img{width:78px;height:78px;} */
+#carshop .cs-list .car-goods .goods li.li2 p{width:174px;float:left;margin-left:10px;}
+#carshop .cs-list .car-goods .goods li.li3 {width:160px;}
+
+#carshop .cs-list .car-goods .goods li.li3 p a:nth-child(2){color:#4f8cff;}
+
+#carshop .cs-list .car-goods .goods li.li4{width:130px;}
+
+#carshop .cs-list .car-goods .goods li.li5{width:110px;}
+#carshop .cs-list .car-goods .goods li.li5 span{display:block;width:14px;float:left;border:1px solid #999;height:18px;background:#fff;line-height:18px;}
+#carshop .cs-list .car-goods .goods li.li5 input{width:40px;float:left;height:18px;border:0;border-top:1px solid #999;border-bottom:1px solid #999;text-align:center;outline:none;}
+#carshop .cs-list .car-goods .goods li.li6{width:130px;}
+
+#carshop .cs-list .car-goods .goods li.li7{width:109px;}
+#carshop .cs-list .car-goods .goods li.li7 a{display:block;}
+
+#carshop .account{height:48px;background:#efefef;margin-top:20px;}
+#carshop .account #countcar{line-height:48px;}
+#carshop .account #countcar #checkcar{float:left;margin:18px 0 0 10px;}
+#carshop .account #countcar span{float:left;display:block;margin-left:10px}
+#carshop .account #countcar i{float:left;display:block;margin-left:10px}
+
+#carshop .account #countcar h3{float:left;margin-left:10px}
+#carshop .account #countcar h4{float:left;margin-left:50px}
+#carshop .account #countcar h4 em{font:600 14px/48px "";margin:0 10px}
+#carshop .account #countcar h5{float:left;margin-left:20px;font:600 22px/48px ""}
+#carshop .account #countcar h6{float:left;margin-left:10px;color:#c40001;font:600 14px/48px ""}
+#carshop .account #countcar p{float:right;width:90px;height:48px;background:#c40001;font:600 16px/48px "";color:#Fff;text-align:center;}
+
+
+.margin{width:991px;margin:auto;margin-top:20px;}
+.member{width:963px;border:1px solid #ccc;padding-left:26px;font:16px/51px ""}
+.member .member1{height:51px;border-bottom:1px solid #ccc;}
+.member span{float:left;line-height:20px;padding-left:10px;margin-left:10px;height:20px;margin-top:16px;}
+.member span:nth-child(2){border-left:1px solid #ccc;}
+.member ul{float:left;margin-left:3px;}
+.member ul li{float:left;height:31px;margin:10px 5px;font:15px/31px "";padding:0 10px;border-radius:6px;color:#fff}
+.member ul li:nth-child(1){background:#f54949;}
+.member ul li:nth-child(2){background:#0eab2f;}
+.member .member2 span:nth-child(1){color:#c40001;}
+.member .member2 span:nth-child(1) b{font:600 32px/20px "";margin:0 3px;vertical-align:middle;}

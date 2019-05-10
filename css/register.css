@@ -1,0 +1,83 @@
+#top{height:60px;padding-top:20px;}
+#top img{float:left;margin-left:40px;display:block;width:123px;height:51px;}
+#top h3{float:left;margin-left:20px;line-height:50px;font-size:20px;height:50px;}
+
+
+#main{height:579px;background:#e50048;}
+#main #cont{padding-top:36px;width:1100px;margin:auto;}
+#main #cont img{width:630px;height:390px;float:left;margin-right:30px;}
+#main #cont form{width:365px;margin-top:10px;background:#fff;float:left;padding:38px 37px 10px 37px;}
+#main #cont form #msg{height:33px;font:18px/30px "微软雅黑";}
+#main #cont form #msg h3{float:left;}
+#main #cont form #msg span{float:left;margin-left:55px;font-weight:100;color:#999}
+#main #cont form #msg h3:nth-child(3){margin-left:30px;color:#999}
+#main #cont form #msg h3.active{color:#E9242B; }
+
+
+/* 手机号验证 */
+/* type1 */
+#main #cont form #formcont .type2{display:none}
+
+#main #cont form #formcont .formcircle{border:1px solid #ccc;border-radius:5px;width:315px;height:50px;margin-top:20px;padding-left:50px;position: relative;}
+#main #cont form #formcont .formcircle input{outline:none;background:#fff;}
+#main #cont form #formcont .formcircle:nth-child(1){background:url(../imgs/mobile-logo.png) no-repeat 15px center;}
+
+#main #cont form #formcont .formcircle span{display:block;position:absolute;right:0;top:0;line-height:50px;}
+
+#main #cont form #formcont #txt{width:220px;height:48px;border:none;}
+
+#main #cont form #formcont #pass{width:220px;height:48px;border:none;}
+#main #cont form #formcont #pass2{width:220px;height:48px;border:none;}
+#main #cont form #formcont  .formcircle:nth-child(2){background: url(../imgs/pwd-logo.png) no-repeat 15px center}
+
+#main #cont form #formcont  .formcircle:nth-child(3){background: url(../imgs/pwd-logo.png) no-repeat 15px center}
+
+#main #cont form #formcont  .formcircle:nth-child(4){background: url(../imgs/username-logo.png) no-repeat 15px center;line-height:48px;}
+
+#main #cont form #formcont #phonebtn-t1{float:right;border:0;background:#c0bfbf;width:108px;color:#fff;margin-left:10px;height:30px;margin:10px 20px 0 0;}
+
+#agree{margin-top:15px;line-height:16px;height:16px;}
+
+#agree #check{float:left;margin-right:10px;margin-top:3px;}
+#agree span{float:left;color:#ff6600;}
+/* type2 */
+
+#main #cont form #formcont #tel{width:220px;height:48px;border:none;}
+#main #cont form #formcont .formcircle-ph{height:50px;margin-top:20px;} 
+#main #cont form #formcont .formcircle-ph .p-left{float:left;width:160px;height:48px;background:url(../imgs/username-logo.png) no-repeat 15px center;border:1px solid #ccc;border-radius:5px;padding-left:50px}
+#main #cont form #formcont #passtest{border:none;height:48px;width:88px;}
+#main #cont form #formcont #phonebtn{float:left;border:1px solid #999;;background:#c0bfbf;width:140px;color:#fff;margin-left:10px;height:50px;border-radius:5px;}
+
+#main #cont form #formcont #notice{margin-top:10px;height:19px;}
+#main #cont form #formcont #notice a:nth-child(1){
+    float:left;color:#3399ff;
+}
+
+#main #cont form #formcont #notice a:nth-child(2){
+    float:right;
+}
+#main #cont form #formcont #notice a:nth-child(2) span{color:#3399ff;}
+
+#main #cont form #formcont #btn{height:49px;margin-top:15px;background:#c40001;border:none;width:365px;font:20px/48px "";color:#fff;}
+#main #cont form #formcont #thirdlogin{margin-top:15px;}
+#main #cont form #formcont #thirdlogin h3{height:18px;font:12px/18px ""}
+#main #cont form #formcont #thirdlogin #way{height:20px;}
+#main #cont form #formcont #thirdlogin #way a{display:block;height:20px;float:left;line-height:20px;    margin-right:10px;}
+#main #cont form #formcont #thirdlogin #way .qq{background:url(../imgs/qq-logo.jpg) no-repeat 0 center;padding-left:20px;}
+#main #cont form #formcont #thirdlogin .blog{background: url(../imgs/weibo-logo.jpg) no-repeat left center;padding-left:20px;}
+
+#main #cont form #formcont #thirdlogin .weixin{background: url(../imgs/weixin-logo.jpg) no-repeat left center;padding-left:20px;}
+
+
+.type3{display:none;}
+
+#main #cont form #formcont .type3 .formcircle{border:1px solid #ccc;border-radius:5px;width:315px;height:50px;margin-top:20px;padding-left:50px;}
+#main #cont form #formcont .type3  .formcircle input{outline:none;}
+#main #cont form #formcont  .type3 .formcircle:nth-child(1){background:url(../imgs/username-logo.png) no-repeat 15px center;}
+
+#main #cont form #formcont .type3  #txt{width:220px;height:48px;border:none;}
+
+#main #cont form #formcont .type3  #pass{width:220px;height:48px;border:none;}
+
+#main #cont form #formcont  .type3 .formcircle:nth-child(2){background: url(../imgs/pwd-logo.png) no-repeat 15px center}
+
